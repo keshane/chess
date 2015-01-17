@@ -133,7 +133,7 @@ class Bishop:
 
 class Queen:
     """The class for a Queen"""
-    def __init__(self, color):
+    def __init__(self, color, column):
         # black or white
         if color == "white" or color == "black":
             self.color = color
@@ -168,7 +168,7 @@ class Queen:
 
 class King:
     """The class for a King"""
-    def __init__(self, color):
+    def __init__(self, color, column):
         # black or white
         if color == "white" or color == "black":
             self.color = color
